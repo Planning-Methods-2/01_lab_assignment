@@ -4,7 +4,7 @@
 
 
 #---- INSTRUCTIONS ----
-# Objective: Familiarize yourself with R syntax (programming lenguage)
+# Objective: Familiarize yourself with R syntax (programming language)
 
 # Task: Run each line of code written bellow. Then, write a comment after each command explaining what it does and what is the output. Use the # sign to start commenting. For example:
 
@@ -80,15 +80,15 @@ grades[grades>80]
 
 #------ Part 5: Object Manipulation ------
 
-class(notas)
+class(grades)
 class(m1)
 
-length(notas)
+length(grades)
 length(m1)
 
 dim(m1)
 dim(df1)
-dim(caja)
+dim(data_cube)
 
 names(df1)
 
@@ -126,6 +126,6 @@ help(package='foreign')
 
 #------ Part 8: Programming Challenge ------
 
-#Create a data.frame object that is a list of top 5 favorite places to eat in San Antonio ordered decreasingly starting with the one you like the most. The data frame needs to have three columns: 1st: Ranking Number, 2nd: Name of the restaurant, 3: Type of Food. Type your code bellow.
+#Create a data.frame object that is a list of top 5 favorite places to eat in San Antonio ordered decreasingly starting with the one you like the most. The data frame needs to have three columns: 1st: Ranking Number, 2nd: Name of the restaurant, 3: Type of Food. Type your code bellow.Do not use any help from AI.
 
 
