@@ -16,15 +16,15 @@
 
 print('Hi world!, Mom look!, I am programming in R!,...')
 
-a<-1
+a<-1 # this creates an object that contaisn a numeric value equal to 1
 
 
 #------ Part 2: Let's create  objects ------
 
-twoplustwo <- 2 + 2
-two_plus_two <- 2 + 2
-two.plus.two <- 2 + 2
-
+twoplustwo <- 2 + 2 #
+two_plus_two <- 2 + 2 #
+two.plus.two <- 2 + 2#
+ 
 two-plus-two <- 2 + 2
 
 #------ Part 3: R Functions to create/manipulate objects ------
@@ -71,7 +71,7 @@ A[2]
 A[-1]
 A[1:2]
 
-grades<-rnorm(100,80,15)
+grades<-rnorm(100,80,15) #
 
 grades[1:5]
 grades>80
